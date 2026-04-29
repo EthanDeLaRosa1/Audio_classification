@@ -1,0 +1,54 @@
+{
+  "n_samples": 610,
+  "class_counts": {
+    "bird": 193,
+    "cat": 207,
+    "dog": 210
+  },
+  "n_features": 27,
+  "labels": [
+    "bird",
+    "cat",
+    "dog"
+  ],
+  "best_model": "Random Forest",
+  "best_accuracy": 0.8688524590163934,
+  "best_macro_f1": 0.869170913474711,
+  "missing_values_found": 0,
+  "outlier_method": "numeric features clipped to 1st/99th percentiles",
+  "categorical_method": "target label encoded using sklearn LabelEncoder",
+  "imbalance_note": "Classes are close in size; used stratified train/test split and class_weight=balanced where supported.",
+  "classification_report": {
+    "bird": {
+      "precision": 0.85,
+      "recall": 0.8717948717948718,
+      "f1-score": 0.8607594936708861,
+      "support": 39.0
+    },
+    "cat": {
+      "precision": 0.8085106382978723,
+      "recall": 0.926829268292683,
+      "f1-score": 0.8636363636363636,
+      "support": 41.0
+    },
+    "dog": {
+      "precision": 0.9714285714285714,
+      "recall": 0.8095238095238095,
+      "f1-score": 0.8831168831168831,
+      "support": 42.0
+    },
+    "accuracy": 0.8688524590163934,
+    "macro avg": {
+      "precision": 0.8766464032421478,
+      "recall": 0.8693826498704548,
+      "f1-score": 0.869170913474711,
+      "support": 122.0
+    },
+    "weighted avg": {
+      "precision": 0.8778601325427274,
+      "recall": 0.8688524590163934,
+      "f1-score": 0.8694231168292176,
+      "support": 122.0
+    }
+  }
+}
