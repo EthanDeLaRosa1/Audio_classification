@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+matplotlib
+
+
+https://drive.google.com/file/d/1oVoTdinjv4xjDGR7o06n2AtscsFi7gxe/view?usp=sharing
